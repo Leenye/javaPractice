@@ -2,13 +2,17 @@ package com.practice;
 
 import java.util.*;
 
+/*map是java中的一种集合，存放的数据是键值对的形式。
+内部实现了一个Map.Entry的接口，接口的方法主要有getKey()和getValue()
+map的遍历，也可以用Iterator来实现*/
+
 public class MapPractice {
 
     public static void main(String[] args){
         Map<String,String> hashMap = new HashMap<String, String>();
         hashMap.put("00","cats");
         hashMap.put("01","dogs");
-        hashMap.put("10","fish");
+        hashMap.put("10", "fish");
 
         if (hashMap.containsKey("00")){
             System.out.println(hashMap.get("00"));
@@ -27,7 +31,6 @@ public class MapPractice {
             System.out.println("map's keyset: "+ keySet);
             System.out.println("map's values: "+ values);
         }
-
 
         for (String key: hashMap.keySet()){
             System.out.println("遍历key: "+ key + ", " + hashMap.get(key));

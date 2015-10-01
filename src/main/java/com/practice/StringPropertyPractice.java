@@ -1,5 +1,8 @@
 package com.practice;
 
+/*字符串是个不可变对象，即一旦赋值，不可改变。
+带来的优点是字符串处理速度提升和安全性能的提高*/
+
 public class StringPropertyPractice {
 
     public static void main(String[] args){
