@@ -1,19 +1,19 @@
-package com.practice.designPattern.builerPattern;
+package com.practice.designPattern.builerPattern.ex1;
 
-public class DellBuilder implements Builder{
+public class AcerBuilder implements Builder {
     private Product product = new Product() {
     };
 
     public void buildCpu(){
-        product.add("CPU: Intel i7");
+        product.add("CPU: Intel i5");
     }
 
     public void buildMemory(){
-        product.add("Memory: 8GB");
+        product.add("Memory: 4GB");
     }
 
     public void buildDisplayCard(){
-        product.add("DisplayCard: NBIDIA 1600MHz");
+        product.add("DisplayCard: NVIDIA 520M");
     }
 
     public Product getFinalResult(){

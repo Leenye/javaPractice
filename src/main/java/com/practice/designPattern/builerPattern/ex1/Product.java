@@ -1,4 +1,4 @@
-package com.practice.designPattern.builerPattern;
+package com.practice.designPattern.builerPattern.ex1;
 
 import java.util.ArrayList;
 import java.util.List;

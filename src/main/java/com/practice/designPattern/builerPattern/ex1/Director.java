@@ -1,4 +1,4 @@
-package com.practice.designPattern.builerPattern;
+package com.practice.designPattern.builerPattern.ex1;
 
 public class Director {
     private Builder builder;
