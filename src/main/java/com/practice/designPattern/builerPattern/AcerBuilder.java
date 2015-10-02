@@ -1,7 +1,8 @@
 package com.practice.designPattern.builerPattern;
 
 public class AcerBuilder implements Builder {
-    private Product product = new Acer();
+    private Product product = new Product() {
+    };
 
     public void buildCpu(){
         product.add("CPU: Intel i5");

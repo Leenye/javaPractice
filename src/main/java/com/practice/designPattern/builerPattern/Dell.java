@@ -1,5 +1,5 @@
-package com.practice.designPattern.builerPattern;
-
-public class Dell extends Product{
-
-}
+//package com.practice.designPattern.builerPattern;
+//
+//public class Dell extends Product{
+//
+//}

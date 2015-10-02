@@ -1,7 +1,8 @@
 package com.practice.designPattern.builerPattern;
 
 public class DellBuilder implements Builder{
-    private Product product = new Dell();
+    private Product product = new Product() {
+    };
 
     public void buildCpu(){
         product.add("CPU: Intel i7");
