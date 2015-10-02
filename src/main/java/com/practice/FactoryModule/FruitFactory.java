@@ -1,4 +1,4 @@
-package com.practice.FactoryModule;
+package com.practice.factoryModule;
 
 public class FruitFactory {
     public static Fruit getFruitInstance(String fruit) throws Exception{

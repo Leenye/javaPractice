@@ -1,4 +1,4 @@
-package com.practice.FactoryModule;
+package com.practice.factoryModule;
 
 public interface Fruit {
     void plant();

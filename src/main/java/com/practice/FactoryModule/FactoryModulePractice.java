@@ -1,4 +1,4 @@
-package com.practice.FactoryModule;
+package com.practice.factoryModule;
 
 import java.util.HashMap;
 import java.util.Map;
