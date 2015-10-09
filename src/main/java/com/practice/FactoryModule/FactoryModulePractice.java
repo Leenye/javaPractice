@@ -12,8 +12,7 @@ public class FactoryModulePractice {
     }
 
     public interface Provider{
-        Service
-        newService();
+        Service newService();
     }
 
     public class Services{
